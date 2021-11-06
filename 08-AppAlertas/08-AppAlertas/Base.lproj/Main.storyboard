@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_8_AppAlertas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="tgf-v9-SSI">
+                                <rect key="frame" x="79" y="176" width="256" height="544"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qr-Ri-vWN">
+                                        <rect key="frame" x="53" y="0.0" width="150" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="Bsg-Mh-IaK"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" image="bell" catalog="system" title="Alerta 1" cornerStyle="large"/>
+                                        <connections>
+                                            <action selector="onAlerta1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xg4-W6-DGM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2G-0z-k3o">
+                                        <rect key="frame" x="53" y="72" width="150" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="3MW-ce-zak"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="clock" catalog="system" title="Alerta 2" cornerStyle="large">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                            </backgroundConfiguration>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onAlerta2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6fq-bh-bCP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gg7-ex-5YB">
+                                        <rect key="frame" x="53" y="144" width="150" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="Gjo-0L-Noq"/>
+                                        </constraints>
+                                        <buttonConfiguration key="configuration" style="plain" title="Alerta 3" cornerStyle="small"/>
+                                        <connections>
+                                            <action selector="onAlerta3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G8I-Wb-GVa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGi-V6-wzE">
+                                        <rect key="frame" x="80.5" y="216" width="95.5" height="31"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Alerta 4"/>
+                                        <connections>
+                                            <action selector="onAlerta4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Agg-Q9-2VI"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="728899_alarm_bell_alert_event_schedule_icon" translatesAutoresizingMaskIntoConstraints="NO" id="aN7-sM-vdC">
+                                        <rect key="frame" x="0.0" y="288" width="256" height="256"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07g-4l-3qa">
+                                <rect key="frame" x="119" y="774" width="156" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="EbP-dt-Byc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="07g-4l-3qa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="6Ac-C7-l2H"/>
+                            <constraint firstItem="07g-4l-3qa" firstAttribute="top" secondItem="tgf-v9-SSI" secondAttribute="bottom" constant="54" id="6Y6-3I-evR"/>
+                            <constraint firstItem="tgf-v9-SSI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="McZ-RP-BPd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="07g-4l-3qa" secondAttribute="trailing" constant="139" id="hJh-C8-YJk"/>
+                            <constraint firstItem="tgf-v9-SSI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="v35-Qz-52m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblinfo" destination="07g-4l-3qa" id="gbs-c5-ps3"/>
+                        <outlet property="lblinformacion" destination="8bC-Xf-vdC" id="xUv-nt-7BW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="728899_alarm_bell_alert_event_schedule_icon" width="256" height="256"/>
+        <image name="bell" catalog="system" width="128" height="124"/>
+        <image name="clock" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
