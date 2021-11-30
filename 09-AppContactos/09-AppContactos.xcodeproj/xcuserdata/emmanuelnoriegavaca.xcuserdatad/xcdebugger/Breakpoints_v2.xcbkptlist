@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A096C6D2-4A7B-4CD3-A649-F0A57C7F3B33"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF7FDD10-DA13-4C8A-8841-951DD110B02A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "09-AppContactos/InformacionTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A684CDC-661E-4C11-831C-3A0432638A9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "09-AppContactos/InformacionTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "InformacionTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7A684CDC-661E-4C11-831C-3A0432638A9C - 5a38e62ae6bdce89"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_9_AppContactos.InformacionTableViewCell.profileImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "09-AppContactos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmanuelnoriegavaca/swiftappMTWDM/09-AppContactos/09-AppContactos/InformacionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "7A684CDC-661E-4C11-831C-3A0432638A9C - 85767c2ccdeea6cd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_9_AppContactos.InformacionTableViewCell.profileImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "09-AppContactos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmanuelnoriegavaca/swiftappMTWDM/09-AppContactos/09-AppContactos/InformacionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "7A684CDC-661E-4C11-831C-3A0432638A9C - fd24e6796ec1f724"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_9_AppContactos.InformacionTableViewCell.profileImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "09-AppContactos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmanuelnoriegavaca/swiftappMTWDM/09-AppContactos/09-AppContactos/InformacionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "7A684CDC-661E-4C11-831C-3A0432638A9C - cb70bc929a6dd3cd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_9_AppContactos.InformacionTableViewCell.profileImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "09-AppContactos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmanuelnoriegavaca/swiftappMTWDM/09-AppContactos/09-AppContactos/InformacionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "7A684CDC-661E-4C11-831C-3A0432638A9C - 3e87f44b08d441be"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_9_AppContactos.InformacionTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; _9_AppContactos.InformacionTableViewCell"
+                  moduleName = "09-AppContactos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmanuelnoriegavaca/swiftappMTWDM/09-AppContactos/09-AppContactos/InformacionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  uuid = "7A684CDC-661E-4C11-831C-3A0432638A9C - 92d5a7d3b0d06a8b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_9_AppContactos.InformacionTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_9_AppContactos.InformacionTableViewCell&gt;"
+                  moduleName = "09-AppContactos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emmanuelnoriegavaca/swiftappMTWDM/09-AppContactos/09-AppContactos/InformacionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
